@@ -1,0 +1,7 @@
+
+<launch>
+  <node name="serial_monitor" pkg="especial_ros" type="serial_monitor.py" output="screen" required="true"/>
+
+  <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" required="true"/>
+
+</launch>
